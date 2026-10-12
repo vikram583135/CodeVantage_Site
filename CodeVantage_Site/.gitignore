@@ -23,6 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-
-.github/instructions/kluster-code-verify.instructions.md
-.kluster
+# Environment variables
+.env
+.env.local
+.env.*.local

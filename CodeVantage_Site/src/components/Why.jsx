@@ -4,7 +4,7 @@ const Why = () => {
     return (
         <section id="why" className="section-padding">
             <div className="container">
-                <h2 className="section-title">Why Choose CodeVantage?</h2>
+                <h2 className="section-title">Why Choose codeWINtage?</h2>
                 <div className="feature-grid">
                     <div className="feature-item">
                         <h4>Clean Architecture</h4>

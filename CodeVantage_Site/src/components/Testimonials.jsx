@@ -7,14 +7,14 @@ const Testimonials = () => {
             id: 1,
             name: "Rahul Sharma",
             role: "Final Year CS Student",
-            text: "The AI project I got from CodeVantage was top-notch. The documentation was perfect, and I cleared my viva with ease!",
+            text: "The AI project I got from codeWINtage was top-notch. The documentation was perfect, and I cleared my viva with ease!",
             image: "https://randomuser.me/api/portraits/men/32.jpg"
         },
         {
             id: 2,
             name: "Priya Patel",
             role: "Startup Founder",
-            text: "CodeVantage helped us build our MVP in record time. The code quality is excellent and scalable.",
+            text: "codeWINtage helped us build our MVP in record time. The code quality is excellent and scalable.",
             image: "https://randomuser.me/api/portraits/women/44.jpg"
         },
         {

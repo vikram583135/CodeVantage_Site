@@ -86,7 +86,7 @@ const ResourceVault = () => {
                         "Downloaded the template but stuck on the implementation?"
                     </p>
                     <a href="#contact" className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 font-semibold transition-colors">
-                        Get Expert Help from CodeVantage
+                        Get Expert Help from codeWINtage
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                         </svg>
