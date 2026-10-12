@@ -1,0 +1,180 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Utilities */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.bg-light { background-color: #f4f4f4; }
+.bg-dark { background-color: #2c3e50; }
+.white-text { color: #fff; }
+.text-center { text-align: center; }
+
+/* Navigation */
+nav {
+    background: #2c3e50; /* Dark Blue */
+    color: #fff;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)), url('https://source.unsplash.com/random/1920x1080/?coding,computer');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background-color: #3498db; /* Bright Blue */
+    color: #fff;
+}
+
+.btn-primary:hover { background-color: #2980b9; }
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn-secondary:hover { background-color: #fff; color: #333; }
+
+/* Sections */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #2c3e50;
+}
+
+.section-title.white-text { color: #fff; }
+
+/* Services Cards */
+.service-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    min-width: 300px;
+}
+
+.card h3 { color: #3498db; margin-bottom: 10px; }
+.card .subtitle { font-style: italic; color: #777; margin-bottom: 20px; }
+.card ul { list-style-position: inside; }
+.card li { margin-bottom: 10px; }
+
+/* Features Grid */
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.feature-item h4 { color: #3498db; margin-bottom: 10px; }
+
+/* Tech Stack Tags */
+.tech-list span {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero h1 { font-size: 1.8rem; }
+    .nav-flex { flex-direction: column; }
+    .nav-links { margin-top: 15px; }
+    .service-grid { flex-direction: column; }
+}

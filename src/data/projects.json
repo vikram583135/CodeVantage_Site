@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "AI-Powered Traffic Management System",
+        "domain": "AI",
+        "language": "Python",
+        "description": "Optimizes traffic light timings using real-time camera feed analysis.",
+        "synopsisLink": "#"
+    },
+    {
+        "id": 2,
+        "title": "Smart Agriculture Monitoring using IoT",
+        "domain": "IoT",
+        "language": "Python",
+        "description": "Monitor soil moisture and temperature remotely using ESP32 and Cloud.",
+        "synopsisLink": "#"
+    },
+    {
+        "id": 3,
+        "title": "E-Commerce Platform with Recommendation Engine",
+        "domain": "Web",
+        "language": "Java",
+        "description": "Full-stack shopping site with collaborative filtering for product suggestions.",
+        "synopsisLink": "#"
+    },
+    {
+        "id": 4,
+        "title": "Fake News Detection using NLP",
+        "domain": "AI",
+        "language": "Python",
+        "description": "Classify news articles as real or fake using LSTM/BERT models.",
+        "synopsisLink": "#"
+    },
+    {
+        "id": 5,
+        "title": "Hospital Management System",
+        "domain": "Web",
+        "language": "Java",
+        "description": "Comprehensive system for managing patients, doctors, and appointments.",
+        "synopsisLink": "#"
+    },
+    {
+        "id": 6,
+        "title": "Home Automation System",
+        "domain": "IoT",
+        "language": "Python",
+        "description": "Control home appliances via voice commands and mobile app.",
+        "synopsisLink": "#"
+    }
+]
